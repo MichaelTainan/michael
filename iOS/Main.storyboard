@@ -42,10 +42,6 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="按這邊"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0W-Qk-gmk">
-                                <rect key="frame" x="267" y="156" width="30" height="30"/>
-                                <state key="normal" title="Test"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -57,7 +53,6 @@
                     </view>
                     <connections>
                         <outlet property="btnSend" destination="gmR-w2-ppN" id="I83-wz-Mbl"/>
-                        <outlet property="btnTest" destination="I0W-Qk-gmk" id="RtB-Un-b0W"/>
                         <outlet property="lbMessage" destination="Az2-gf-jAI" id="dKN-Ve-PIA"/>
                         <segue destination="70C-Ul-rD3" kind="showDetail" identifier="moveToMenuViewSegue" id="85E-hw-ES9"/>
                     </connections>

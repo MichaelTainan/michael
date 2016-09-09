@@ -16,18 +16,10 @@ namespace michael.iOS
 		UIKit.UIButton btnSend { get; set; }
 
 		[Outlet]
-		UIKit.UIButton btnTest { get; set; }
-
-		[Outlet]
 		UIKit.UILabel lbMessage { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (btnTest != null) {
-				btnTest.Dispose ();
-				btnTest = null;
-			}
-
 			if (btnSend != null) {
 				btnSend.Dispose ();
 				btnSend = null;
