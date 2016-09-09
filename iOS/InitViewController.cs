@@ -20,7 +20,6 @@ namespace michael.iOS
 			base.ViewDidLoad ();
 
 
-
 			btnSend.TouchUpInside += (object sender, EventArgs e) => {
 
 				InvokeOnMainThread(
